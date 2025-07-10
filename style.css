@@ -1,0 +1,35 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #fff3f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo img{
+    width: 20%;
+}
+
+#intro-section{
+    display: flex;
+    height: 540px;
+}
+
+#intro-section .card-content{
+    display: flex;
+    height: 100%;
+    align-items: end;
+}
+
+#intro-section .card-content p{
+    margin-bottom: 10%;
+}
+
+#intro-section .card-content:first-child{
+    background-color: #d45a69;
+}
