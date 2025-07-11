@@ -2,6 +2,7 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+    font-family: "Sansation", sans-serif;
 }
 
 header{
@@ -14,7 +15,9 @@ header{
 #logo img{
     width: 20%;
 }
-
+main{
+    background-color: #fff3f5;
+}
 #intro-section{
     display: flex;
     height: 540px;
@@ -28,8 +31,37 @@ header{
 
 #intro-section .card-content p{
     margin-bottom: 10%;
+    text-align: center;
 }
 
 #intro-section .card-content:first-child{
     background-color: #d45a69;
+}
+
+#intro-section .card-content:last-child{
+    background-color: #d49973;
+}
+
+#products-section p{
+    text-align: center;
+
+}
+
+#products-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+#products-content .card-content{
+    display: flex;
+    border: #d49973 solid 2px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border-radius: 10px;
 }
