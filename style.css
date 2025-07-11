@@ -42,9 +42,11 @@ main{
     background-color: #d49973;
 }
 
-#products-section p{
-    text-align: center;
 
+#products-section p:first-child{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
 }
 
 #products-content{
