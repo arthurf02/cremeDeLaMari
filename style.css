@@ -58,7 +58,7 @@ main{
 
 #products-content{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 20px;
     row-gap: 20px;
@@ -68,11 +68,33 @@ main{
 #products-content .card-content{
     display: flex;
     border: #d49973 solid 2px;
+    border-radius: 10px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 300px;
+    justify-content: space-around;
+    text-align: center;
+    height: 350px;
+}
+
+#products-content .card-content img{
+    width: 180px;
+    border: #d49973 solid 2px;
     border-radius: 10px;
+}
+
+#products-content .card-content button{
+    background-color: #d49973;
+    border: #d49973 solid 2px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 300ms;
+}
+
+#products-content .card-content button:hover{
+    background-color: #d45a69;
+    cursor: pointer;
+    border: #d45a69 solid 2px;
+    transition: 300ms;
 }
 
 footer{
